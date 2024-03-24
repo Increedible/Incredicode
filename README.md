@@ -14,3 +14,10 @@ Onlyletters: If you answer 'onlyletters', this means that your output will conta
 The program will the output the encoded/decoded text.
 
 **Disclaimer:** aside from the givenkey, xoring and onlyletters also define settings for your encoding / decoding. This means, if you try to decode an xored onlyletters with the same key but without onlyletters or xored enabled/disabled, you will get a different result! Xoring enabled and onlyletters disabled is recommended.
+
+Methods this algorithm uses:
+- Shuffeling
+- XOR encryption
+- Padding
+- Char cascades (changing one character in the input changes all of the characters on the output)
+- String to string matching
