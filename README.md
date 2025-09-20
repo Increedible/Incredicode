@@ -4,6 +4,7 @@ Very nice encryption and decryption algorithm to turn garbage into letters.
 This is the source code of https://lucascodes.com/encryption/ [inactive], an algorithm to turn words into gibberish and back. 
 
 **Usage**
+
 Once Ran, the program will want a:
 String: This is your data you want to encrypt/decrypt.
 Givenkey: This is your key you and your friends can share so that no one else can decrypt it.
